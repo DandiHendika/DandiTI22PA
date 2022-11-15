@@ -56,7 +56,7 @@ int main(){
     }
   jumlahbayar = jumlahharga * x;
   pajak = jumlahbayar * 0.1;
-  total = jumlahbayar - pajak;
+  total = jumlahbayar + pajak;
   cout << "--------------------------------------------" << endl;
   cout << "                       Jumlah Bayar  Rp."<< jumlahbayar<<endl;
   cout << "                       Pajak 10%     Rp."<< pajak <<endl;
